@@ -1,0 +1,1238 @@
+/*********************
+Table of Contents:
+1) Element Selectors
+2) Container fluid class
+3) TITLE
+4) CONTINUOUS IMPROVEMENT
+5) JLE
+6) TWI
+7) PAST
+8) Footer
+9) About page
+-) Media responsive Classes
+**************************/
+
+/********* ELEMENT SELECTORS *********/
+a {
+  color: #0094D9;
+}
+
+body {
+  font-family: 'Mulish', sans-serif;
+  text-align: center;
+  background-color: #fdfdfd;
+}
+
+h1,
+h2 {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 500;
+  line-height: 1.8;
+}
+
+h4,
+h5 {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+h6 {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+hr {
+  border-top: 3px solid #0094D9;
+}
+
+li {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+}
+
+p.nav-link {
+  margin-bottom: auto;
+}
+
+p.nav-link:hover {
+  cursor: default;
+}
+
+.bold-pp {
+  /*bold class for p*/
+  font-weight: bold;
+}
+
+.center-hr {
+  width: 50%;
+}
+
+.hr-left {
+  margin-right: 80%;
+}
+
+.off-white-bg {
+  background-color: #FAF9F6;
+}
+
+.epic-blue-bg {
+  background-color: #0094D9;
+}
+
+/* Custom color for Homepage p attribute */
+.home-p {
+  color: #8f8f8f;
+}
+
+/********* CLASS SELECTORS *********/
+.space-box {
+  height: 70px;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 5% 10%;
+}
+
+/********* TITLE SECTION *********/
+.home-title {
+  text-align: left;
+  background-image: url("../img/header-image.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fdfdfd;
+  position: relative;
+}
+
+.title-main {
+  padding: 15% 5% 0;
+}
+
+.title-logo {
+  transition: .5s;
+  height: auto;
+  width: 12rem;
+  color: #fdfdfd;
+}
+
+.title .container-fluid {
+  padding: 1% 2%;
+}
+
+/* Headings */
+.title-heading {
+  font-size: 4rem;
+  line-height: 1.2;
+  margin-bottom: 1.8rem;
+  font-weight: 900;
+}
+
+.title-subheading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.title-tagline {
+  font-size: 1.5rem;
+  line-height: 2.5;
+  font-weight: 500;
+}
+
+/* Navigation Bar */
+.navbar {
+  transition: .5s;
+  padding: .5rem 1rem;
+  background-color: #fdfdfd;
+  color: #231f20;
+}
+
+.navbar-brand {
+  transition: .5s;
+  font-family: 'Mulish', sans-serif;
+  font-size: 1.1rem;
+  margin: auto auto auto .5%;
+  color: #231f20;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  transition: .4s ease;
+  font-family: 'Mulish', sans-serif;
+  color: #231f20 !important;
+}
+
+.nav-link:hover {
+  color: #0094D9 !important;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* hidden by default */
+.dropdown-services {
+  display: none;
+  transition: .5s;
+  position: absolute;
+  background-color: #fdfdfd;
+  font-weight: 500;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.navbar-toggler {
+  color: #231f20;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2835,31,32%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.dropdown:hover .dropdown-services {
+  display: block;
+  transition-delay: 1s;
+}
+
+/* Buttons */
+.btn {
+  color: #fdfdfd;
+  margin-top: 5%;
+}
+
+.title-btn {
+  margin-right: 10px;
+}
+
+.btn-blue {
+  background-color: #0094D9;
+  transition: .5s;
+}
+
+.btn-blue:hover {
+  background-color: #fdfdfd;
+  color: #0094D9;
+  border-color: #0094D9;
+}
+
+.btn-grey {
+  background-color: #677A87;
+  transition: .5s;
+}
+
+.btn-grey:hover {
+  background-color: #fdfdfd;
+  color: #677A87;
+  border-color: #677A87;
+}
+
+/********* TAGLINE SECTION *********/
+.tagline .container-fluid {
+  padding: 2% 0;
+  text-align: center;
+}
+
+.tagline hr {
+  width: 70%;
+  text-align: center;
+  margin: 2% 15%;
+}
+
+/* CONTINUOUS IMPROVEMENT SECTION */
+.continuous-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  padding-bottom: 48px;
+  height: auto;
+}
+
+.grey-bg-box {
+  background-color: #FAF9F6;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.grey-box-01 {
+  width: 67%;
+  height: 100%;
+  right: 0;
+}
+
+.grey-box-02 {
+  width: 67%;
+  height: auto;
+  left: 0;
+}
+
+.box-continuous-txt {
+  text-align: left;
+}
+
+.floating-image-left {
+  padding-right: 50px;
+}
+
+.floating-image-right {
+  padding-left: 7%;
+}
+
+.display-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 60px;
+  /* Add Shadow */
+  -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  -khtml-box-shadow: 10px 10px 5px #ccc;
+  box-shadow: 10px 10px 5px #ccc;
+}
+
+/* JLE SECTION */
+.jle-section {
+  position: relative;
+}
+
+.jle-txt {
+  text-align: left;
+}
+
+.jle-img {
+  position: relative;
+  right: -85px;
+}
+
+/* TWI SECTION */
+.twi-section {
+  position: relative;
+}
+
+/* PAST CLIENTS SECTION */
+.clients-h2 {
+  text-align: left;
+  margin-bottom: 2.2rem;
+}
+
+.clients-body {
+  text-align: left;
+  font-style: italic;
+}
+
+/* MESSAGE FROM BRAD */
+.message {
+  background-color: #0094D9;
+}
+
+.message-inner {
+  background-color: #fdfdfd;
+  padding: 3% 5%;
+}
+
+.brad-shashin {
+  width: 100%;
+  height: 29rem;
+  object-fit: cover;
+  object-position: 60%;
+}
+
+.message-text {
+  font-style: italic;
+  text-align: left;
+  padding-top: 15%;
+}
+
+/* CTA */
+.cta-htag {
+  margin-top: 1.5rem;
+}
+
+/********* Footer *********/
+
+.footer {
+  padding: 3% 15% 1rem;
+  background-color: #23201F;
+  color: #fdfdfd;
+}
+
+.footer a {
+  color: #fdfdfd;
+}
+
+.footer-icons {
+  padding: 20px 10px;
+  color: #fdfdfd;
+}
+
+.footer-txt {
+  font-size: 10px;
+}
+
+.footer-button {
+  font-size: 14px;
+}
+
+.footer-h5 {
+  margin-bottom: 1.2rem;
+}
+
+.footer-bottom {
+  margin-top: 2.5rem;
+}
+
+/*********  ABOUT PAGE *********/
+.about-title {
+  text-align: center;
+  background-color: #343A40;
+}
+
+.about-main {
+  padding: 7% 25% 0;
+}
+
+.about-heading {
+  font-size: 3.2rem;
+  margin-top: 2rem;
+  margin-bottom: .2rem;
+  font-weight: 700;
+  color: #fdfdfd;
+}
+
+.about-title p {
+  color: #fdfdfd;
+}
+
+.mission-statement,
+.kaizen-about,
+.founding-about,
+.rebranding-about {
+  text-align: left;
+}
+
+.makoto-meaning {
+  text-align: center;
+}
+
+.makoto-meaning-card {
+  margin: 3% 20%;
+  width: auto;
+  padding: 4%;
+}
+
+.makoto-meaning-card-2 {
+  background-color: #0094D9;
+  color: #fdfdfd;
+  padding: 7%;
+}
+
+.about-cta {
+  text-align: center;
+  color: #fdfdfd;
+}
+
+.about-cta .btn {
+  margin: 2% 0;
+}
+
+/* Fancy display cards */
+.popup {
+  position: relative;
+  display: inline-block;
+}
+
+/* hidden by default */
+.popup-txt {
+  display: none;
+  position: absolute;
+  background-color: #fdfdfd;
+  color: #343A40;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.popup:hover .popup-txt {
+  display: block;
+  transition-delay: 1s;
+}
+
+/* Lean Consulting page */
+.top-section .container-fluid {
+  padding: 5% 7% 3%;
+  text-align: left;
+}
+
+.lean-top {
+  background-image: url("../img/Makoto-Global_Tsunehisa-Horiuchi_0714-1024x683.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: right top;
+  background-size: cover;
+  color: #fdfdfd;
+}
+
+.consulting-content-1 {
+  text-align: center;
+}
+
+.content-row {
+  margin-bottom: 3rem;
+}
+
+.reporting {
+  background-image: url("../img/Lean-Consulting-Tours-Japan-1024x668.jpeg");
+  min-height: 200px;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.services {
+  width: 70%;
+  margin: auto;
+}
+
+.consulting-content-2 {
+  position: relative;
+  margin: 2%;
+}
+
+.consulting-content-2-txt {
+  text-align: left;
+  padding: 3% 5%;
+}
+
+.consulting-around-world-img {
+  width: 95%;
+  padding: 2%;
+}
+
+.australia-consulting-benefits-img {
+  width: 95%;
+  margin: 2%;
+}
+
+.consulting-content-3 {
+  position: relative;
+  margin: 2%;
+}
+
+/* Contact page */
+.makoto-contact {
+  margin: 7% 15% 5%;
+}
+
+.contact-icon-row {
+  margin: 5% 0;
+}
+
+.icon-color {
+  color: #343A40;
+}
+
+.icon-color:hover {
+  color: #0094D9;
+}
+
+.id_status {
+  height: 24px;
+  color: red;
+}
+
+/******* TWI Training and coaching ********/
+
+.training-cont {
+  padding: 7%;
+  width: 75%;
+}
+
+.twi-top {
+  background-image: url("../img/BB_0095-1024x683-1024x683.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right top;
+  background-size: cover;
+  color: #fdfdfd;
+}
+
+.what-twi {
+  text-align: left;
+}
+
+.twi-origin {
+  text-align: center;
+  padding: 3%;
+}
+
+.twi-h2 {
+  padding: 3% 25%;
+}
+
+.twi-origin-content {
+  text-align: left;
+  margin-top: 1.5rem;
+}
+
+.twi-origin-content li,
+.profiles-content li {
+  margin: 0;
+}
+
+.twi-stages-content {
+  color: #fdfdfd;
+  padding: 3% 5%;
+}
+
+.twi-card {
+  transition: .5s;
+  text-align: left;
+  height: 20rem;
+  position: relative;
+  background-color: #FAF9F6;
+  border: none;
+  margin: 3%;
+}
+
+.twi-btn {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+}
+
+.twi-card:hover {
+  box-shadow: 5px 5px 5px gray;
+  cursor: default;
+}
+
+.container-1 {
+  padding: 2% 5%;
+}
+
+.twi-col {
+  margin: 10px 20px;
+}
+
+.cta-twi .container-fluid {
+  padding: 3%;
+}
+
+.line-space {
+  margin-top: 1.8rem;
+  margin-bottom: 1.8rem;
+}
+
+/************ JLE TOURS ************/
+
+.tour-card-blue {
+  height: 260px;
+}
+
+.jle-top {
+  background-image: url("../img/PC072453.JPG");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  color: #fdfdfd;
+}
+
+.top-txt {
+  background-color: rgba(0, 0, 0, 0.6);
+  /* Black w/opacity/see-through */
+  padding: 5%;
+}
+
+.jle-bullet {
+  position: relative;
+  margin-top: 5%;
+}
+
+.jle-bullet .container-fluid {
+  padding: 5% 7% 2%;
+}
+
+.no-1-benchmark {
+  padding: 2% 4%;
+}
+
+.tall-img {
+  width: 100%;
+  height: 40rem;
+  object-fit: cover;
+}
+
+.jpn-explained {
+  margin-top: 30px;
+  padding: 2% 4%;
+}
+
+.y-jpn {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.y-jpn-title {
+  padding-top: 3%;
+}
+
+.y-jpn-txt {
+  padding: 3%;
+}
+
+.tour-details {
+  margin-top: 40px;
+}
+
+.card-blue {
+  margin-top: 20px;
+  height: auto;
+  background-color: #0094D9;
+  color: #fdfdfd;
+  padding: 2%;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.what-we-cover {
+  margin-top: 40px;
+  padding: 3% 10%;
+}
+
+.more-tour-details {
+  margin-top: 40px;
+  background-color: #0094D9;
+  padding-top: 3%;
+  padding-bottom: 2%;
+}
+
+.details-card {
+  height: 400px;
+}
+
+/********** BLOG PAGES ***********/
+.blog-head {
+  padding: 8rem 2.5rem 0;
+}
+
+.blog-head h1 {
+  font-size: 3rem;
+}
+
+.blog-body-content {
+  position: relative;
+  text-align: left;
+  max-width: 42rem;
+  margin: auto;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+.blog-body h2 {
+  color: #0094D9;
+}
+
+.floating-menu-right {
+  position: absolute;
+}
+
+/********** PROFILES *************/
+
+.profiles-top {
+  margin-top: 40px;
+  color: #fdfdfd;
+  background-image: url('../img/Industrial-Lean-Management-Consulting-1024x683.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.japan-profiles,
+.australia-profiles {
+  padding: 3%;
+}
+
+.profiles-top a {
+  margin: 0 1em;
+  color: #fdfdfd;
+}
+
+.profiles-sh {
+  margin-bottom: 2rem;
+}
+
+.color-txt {
+  color: #0094D9;
+}
+
+.profiles-content {
+  text-align: left;
+  margin-top: 2rem;
+  position: relative;
+}
+
+.img-wrapper img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 30px;
+  filter: grayscale(100%);
+}
+
+.daniel-calendly,
+.craig-calendly,
+.taylor-calendly,
+.chris-calendly,
+.brad-calendly,
+.sanja-calendly,
+.niels-calendly,
+.paul-calendly,
+.daniel-calendly-1on1,
+.chris-calendly-1on1 {
+  height: 70%;
+  width: 80%;
+  background-color: #fdfdfd;
+  border: 2px solid #0094D9;
+  position: fixed;
+  top: 7rem;
+  visibility: hidden;
+  z-index: 100;
+}
+
+.calendly-btn {
+  width: 210px;
+}
+
+.home-calendly {
+  height: 70%;
+  width: 80%;
+  background-color: #fdfdfd;
+  border: 2px solid #0094D9;
+  position: fixed;
+  top: 7rem;
+  visibility: hidden;
+  z-index: 100;
+}
+
+.mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  z-index: 1;
+  -webkit-backface-visibility: hidden;
+}
+
+.thankyou-main {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/********* STAND BY YOU LANDING PAGE *********/
+
+.sby-header {
+  background-image: url('../img/Stand-By-You-header.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 5%;
+  padding-bottom: 2%;
+  height: auto;
+  width: 100%;
+  color: #fdfdfd;
+}
+
+.sby-arch {
+  background-image: url('../img/arch@10x-1024x323.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
+  width: 100%;
+}
+
+.sby-toplist {
+  width: 60%;
+  margin: auto;
+}
+
+.what-is-sby {
+  padding: 1%;
+}
+
+.what-sby-blue {
+  background-color: #0094D9;
+  color: #FDFDFD;
+  padding: 5% 10%;
+}
+
+.what-sby-h2 {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+.sby-hr {
+  border-top: 3px solid #fdfdfd;
+  width: 10rem;
+  margin: 2rem auto;
+}
+
+.sby-filler-1 {
+  background-image: url('../img/Lean-Consulting-Tours-Japan-1024x668.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.sby-offers {
+  position: relative;
+  text-align: left;
+}
+
+.sby-services-img {
+  width: 100%;
+  height: auto;
+  margin-left: 2rem;
+}
+
+.seven-factors-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 4%;
+}
+
+.sby-performance-txt {
+  width: 80%;
+  margin: 3rem auto;
+}
+
+.sby-analysis {
+  padding: 0 10% 3%;
+}
+
+.sby-cta {
+  width: 75%;
+  margin: auto;
+  position: relative;
+}
+
+.sby-logo-inner {
+  height: auto;
+  width: 45%;
+  padding-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/********* SHINGO INSTITUTE PARTNER PAGE *********/
+
+.shingo-header {
+  background-image: url(../shingo-institute/img/shingo_partner_header.jpg);
+  margin-top: 60px;
+}
+
+.shingo-header-screen {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #fdfdfd;
+  padding: 5% 15%;
+}
+.shingo-header a:hover {
+  transition: .5s;
+  color: aliceblue;
+}
+
+.shingo-h1 {
+  line-height: 1.6;
+  font-size: 3rem;
+}
+
+.shingo-section-2 a {
+  color: #fdfdfd;
+}
+
+.shingo-interest-inner {
+  background-color: #0094D9;
+  padding: 2%;
+  color: #fdfdfd;
+}
+
+.shingo-cta {
+  background-color: #0094D9;
+  color: #fdfdfd;
+}
+
+/********* ONLINE JLE TOURS PAGE *********/
+
+.jle-online-top {
+  margin-top: 40px;
+  padding: 7% 10%;
+  background-image: url(../online-tours/img/MakotoWebsite.jpg);
+  background-size: cover;
+  color: #FDFDFD;
+}
+
+.jle-online-top-screen {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 5%;
+}
+
+.jle-online-top h1 {
+  line-height: 2;
+  font-size: 2.8rem;
+}
+
+.jle-online-top h2 {
+  line-height: 1.8;
+}
+
+.jle-online-cta-top {
+  background-color: #0094D9;
+  color: #FDFDFD;
+  padding: 2% 20%;
+}
+
+.jle-online-cta-top a {
+  color: #fdfdfd;
+  margin-top: 3%;
+}
+
+.jle-online-cta {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.top-row-jle-cta {
+  margin-top: 3%;
+}
+
+.virtual-exp-summary {
+  text-align: left;
+}
+
+.virtual-exp-blue {
+  background-color: #0094D9;
+  color: #FDFDFD;
+}
+
+.virtual-exp-blue a {
+  color:rgba(0, 0, 0, 0.75);
+} .virtual-exp-blue a:hover {
+  transition: ease .5s;
+  color: #FDFDFD;
+}
+
+.jle-online-card {
+  width: auto;
+}
+
+.virtual-exp-summary {
+  padding: 5% 7% 0;
+}
+
+.online-tours-img {
+  max-width: 100%;
+  height: auto;
+}
+
+/********* ONLINE TRAINING *********/
+
+.online-training-top {
+  margin-top: 40px;
+  background-image: url(../online-training/img/...);
+}
+
+
+
+/********* CSS ANIMATIONS AND MEDIA CLASSES *********/
+
+/* Make images fade in on scroll */
+.stealth-img {
+  visibility: hidden;
+}
+
+.fadeIn {
+  -webkit-animation: animat_show 0.8s;
+  animation: animat_show 0.8s;
+  visibility: visible !important;
+}
+
+@-webkit-keyframes animat_show {
+  0% {
+    opacity: 0
+  }
+
+  100% {
+    opacity: 1
+  }
+}
+
+/* Media Responsive Classes */
+@media (min-width:1101px) {
+  #navbarNav {
+    display: block;
+  }
+
+  .navbar-toggle {
+    display: none;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1100px) {
+  .profiles-top {
+    margin-top: 60px;
+  }
+}
+
+@media (max-width:991px) {
+  .profiles-top {
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 1100px) {
+
+  /* Mobile and tablet CSS */
+  .makoto-contact {
+    margin-top: 10%;
+  }
+
+  .home-title {
+    background-attachment: scroll;
+  }
+
+  .twi-top {
+    background-attachment: scroll;
+  }
+
+  .mobile-center {
+    text-align: center;
+  }
+
+  hr {
+    margin-right: auto !important;
+  }
+
+  .grey-box-02,
+  .grey-box-01 {
+    width: 100%;
+  }
+
+  .jle-img {
+    right: 0;
+  }
+
+  .btn {
+    margin: 3% 10%;
+  }
+
+  .tall-img {
+    padding: 5%;
+    height: auto;
+  }
+
+  .continuous-content {
+    padding: 5%;
+  }
+
+  .floating-image-left {
+    padding-right: 0;
+    padding-top: 5%;
+  }
+
+  .floating-image-left .display-img {
+    margin-bottom: 3%;
+  }
+
+  .space-box {
+    height: 50px;
+  }
+
+  .floating-image-right {
+    display: none;
+  }
+
+  .nav-item {
+    margin: 1%;
+  }
+
+  .profiles-top {
+    background-attachment: scroll;
+  }
+
+  .profiles-content h3,
+  .profiles-content p {
+    text-align: center;
+  }
+
+  .blog-body {
+    padding: 0 4rem 2rem;
+  }
+
+  .details-card {
+    height: 460px;
+  }
+
+  .sby-logo-inner {
+    width: 70%;
+  }
+
+  .shingo-h1 {
+    line-height: 1.6;
+    font-size: 2.4rem;
+  }
+  
+}
+
+@media (max-width: 580px) {
+
+  /* Mobile only */
+  .fixed-top .nav {
+    padding: 0;
+  }
+
+  .profiles-top {
+    margin-top: 30px;
+  }
+
+  .sby-toplist {
+    width: 90%;
+  }
+
+  .sby-logo-inner {
+    width: 90%;
+  }
+
+  .jle-online-top h1 {
+    line-height: 1.6;
+    font-size: 2.5rem;
+  }
+  
+  .jle-online-top h2 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+}
