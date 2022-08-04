@@ -12,6 +12,6 @@ This website is pretty bare-bones and not very clean. These are some tasks that 
 2. consolidate CSS
 3. possibly consider restructuring the website framework to have a back end w/ nodeJS & esj instead of a front-end only static website
 
-- create new branch to rebuild using React
+- create new branch to rebuild using ejs & express
 
 4. add more here...
